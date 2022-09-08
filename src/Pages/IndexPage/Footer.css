@@ -1,0 +1,100 @@
+.contenedor-footer{
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-footer{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.titulo{
+    position: absolute;
+    margin-top: 50px;
+    font-size: 23px;
+    color: #fff;
+    font-family: verdana;
+}
+
+.texto-contactanos{
+    text-shadow: 1px 1px 6px #000;
+}
+
+.form-contacto{
+    width: 100%;
+    min-width: 200px;
+    position: absolute;
+    margin-top: 150px;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+input{
+    box-shadow: 1px 1px 6px #000;
+    border-radius: 6px ;
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 15px 0px;
+    border: none;
+    width: 280px;
+    text-align: center;
+    color: #03045E;
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+}
+
+button{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    background-color: #00B4D8;
+    color: #fff;
+    font-size: 100%;
+    border-radius: 80px;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 1s;
+    background-color: #0077B6;
+    box-shadow: 1px 1px 6px #000;
+}
+
+.contenedor-redesSociales{
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.texto-redesSociales{
+    text-shadow: 1px 3px 10px #000;
+}
+
+.iconos-redesSociales{
+    display: flex;
+    justify-content:center;
+}
+
+.datos-contacto{
+    margin-top: 20px;
+    text-shadow: 2px 2px 6px #000;
+    font-size: 18px;
+}
+
+.ventas-datos{
+    margin-bottom: 30px;
+}
+
+.soporte-datos{
+    margin-bottom: 30px;
+}
+
+.desarrollador{
+    margin-top: 10px;
+}

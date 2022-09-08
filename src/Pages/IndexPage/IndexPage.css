@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.barra-navegacion{
+  display: flex;
+  height: 82vh;
+  padding-bottom: 80px;
+  width: 100%;
+  object-fit: contain;
+  background-image: url('../../imagenes/pinturas.png');
+}
+
+.imagen-logo{    
+  width: 30px;
+  height: 30px;
+}
+
+.titulo-apocalipsis{
+  font-family: Roboto, sans-serif;
+  color: #fff;
+  width: 140px;
+  height: 20px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.links-info{
+  width: 100%;
+  height: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  font-family: sans-serif;
+}
+
+.nosotros{
+  width: 80px;
+  height: 25px;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.nosotros:hover{
+  text-shadow: 1px 1px 10px #03045E;
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+.contacto{
+  width: 80px;
+  height: 25px;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.contacto:hover{
+  text-shadow: 1px 1px 10px #03045E;
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+.productos{
+  width: 80px;
+  height: 25px;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+.productos:hover{
+  text-shadow: 1px 1px 10px #03045E;
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+
+.imagen-portada{
+  width:30rem;
+  height: 200px;
+  min-width: 100px;
+}
+
+.contenedor-portada{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 140px;
+}
+
+
+
+.textos-portada{
+  width:500px;
+  padding: 0px 15px 0px 15px;
+}
+
+.titulo-soluciones{
+  font-family: Verdana, sans-serif;
+  font-weight: 800;
+  margin-top: 20%;
+  font-size:25px;
+  color: #CAF0F8;
+  text-shadow: 1px 1px 6px #000;
+  text-align: center;
+}
+
+.texto-empresa{
+  margin-top: 30px;
+  font-size: 20px;
+  color: #CAF0F8;
+  text-align: center;
+  text-shadow: 1px 1px 6px #000;
+}
+
+.servicios{
+  margin-top: 25px;
+  text-align: center;
+  color: #0077B6;
+}
+
+.contenedor-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+
+.contenedor-boton-servicios{
+  display: flex;
+  justify-content: center;
+}
+
+.boton-servicios{
+  background: #0077B6;
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.boton-servicios:hover{
+  transition: 1s;
+  background: #094160;
+}
+
+
