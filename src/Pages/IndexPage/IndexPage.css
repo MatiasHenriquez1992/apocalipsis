@@ -3,157 +3,289 @@
   padding: 0;
 }
 
-.barra-navegacion{
-  display: flex;
-  height: 82vh;
-  padding-bottom: 80px;
+.contenedor-principal{
   width: 100%;
-  object-fit: contain;
-  background-image: url('../../imagenes/pinturas.png');
 }
-
-.imagen-logo{    
-  width: 30px;
-  height: 30px;
-}
-
-.titulo-apocalipsis{
-  font-family: Roboto, sans-serif;
-  color: #fff;
-  width: 140px;
-  height: 20px;
-  font-size: 20px;
-  padding-top: 5px;
-}
-
-.links-info{
-  width: 100%;
-  height: 25px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 30px;
-  font-family: sans-serif;
-}
-
-.nosotros{
-  width: 80px;
-  height: 25px;
-  margin-right: 50px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-}
-
-.nosotros:hover{
-  text-shadow: 1px 1px 10px #03045E;
-  transform: scale(1.1);
-  transition: .2s;
-}
-
-.contacto{
-  width: 80px;
-  height: 25px;
-  margin-right: 50px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-}
-
-.contacto:hover{
-  text-shadow: 1px 1px 10px #03045E;
-  transform: scale(1.1);
-  transition: .2s;
-}
-
-.productos{
-  width: 80px;
-  height: 25px;
-  margin-right: 50px;
-  text-decoration: none;
-  color: #fff;
-  font-size: 16px;
-}
-
-.productos:hover{
-  text-shadow: 1px 1px 10px #03045E;
-  transform: scale(1.1);
-  transition: .2s;
-}
-
 
 .imagen-portada{
-  width:30rem;
-  height: 200px;
-  min-width: 100px;
-}
-
-.contenedor-portada{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  position: absolute;
-  top: 140px;
+  height: 100vh;
+  object-fit: cover;
 }
 
+.logo-apocalipsis{
+  position: absolute;
+  width: 40px;
+}
 
+.contenedor-redes-sociales{
+  width: 93%;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  position: absolute;
+  margin-top: 10px;
+}
 
-.textos-portada{
-  width:500px;
-  padding: 0px 15px 0px 15px;
+.texto-seguinos{
+  color: #fff;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.icono-instagram{
+  color: #fff;
+  font-size: 25px;
+  padding-right: 10px;
+}
+
+.icono-facebook{
+  color: #fff;
+  font-size: 25px;
+}
+
+.texto-apocalipsis{
+  position: absolute;
+  color: #fff;
+  margin-left: 40px;
+  margin-top: 10px;
+  font-family: Roboto;
+  text-shadow: 2px 2px 10px #000;
+}
+
+.imagen-portada-notebook{
+  position: absolute;
+  margin-left: 60%;
+  width: 600px;
+  margin-top: 140px;
+  z-index: 0;
+}
+
+@media screen and (max-width: 1500px) {
+  .imagen-portada-notebook {
+    width: 600px;
+    margin-left:400px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .imagen-portada-notebook {
+    margin-left: 5px;
+    margin-top: 650px;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 505px) {
+  .imagen-portada-notebook {
+    margin-left: -40px;
+    margin-top: 750px;
+    width: 395px;
+  }
+}
+
+.texto-presentacion{
+  position: absolute;
+  color: #fff;
+  margin-top: 300px;
+  padding-left: 5px;
+  font-size: 60px;
+  font-family: Anton;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.texto-adicional{
+  position: absolute;
+  color: #2dfa03;
+  margin-top: 400px;
+  padding-left: 5px;
+  font-size: 40px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.boton-verServicios{
+  position: absolute;
+  text-decoration: none;
+  background-color: #e5fa03;
+  width: 150px;
+  text-align: center;
+  margin-top: 470px;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Anton;
+  color: #000;
+  border-radius: 30px;
+}
+
+.boton-verServicios:hover{
+  background-color: #2eff04;
+  box-shadow: 1px 1px 20px #90db27;
+  transition: .2s;
+}
+
+@media screen and (max-width: 625px) {
+  .texto-adicional {
+    margin-top: 470px;
+    font-size: 30px;
+  }
+  .boton-verServicios{
+    margin-top: 550px;
+    margin-left: 10px;
+  }
+}
+
+.contenedor-servicios{
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+}
+
+.titulo-elegirnos{
+  width: 100%;
+  color: #3b4748;
+  text-align: center;
+  font-size: 30px;
+  font-family: Anton;
+  letter-spacing: 1px;
+}
+
+.parrafo-elegirnos{
+  padding: 20px 20%;
+  font-size: 23px;
+  color: #3b4748;
+  text-align: center;
+  font-weight: 500;
+}
+
+.contenedor-soluciones{
+  background-color: rgb(178, 237, 228);
+  margin-top: 60px;
+  padding-top: 10px;
+  padding-bottom: 170px;
 }
 
 .titulo-soluciones{
-  font-family: Verdana, sans-serif;
-  font-weight: 800;
-  margin-top: 20%;
-  font-size:25px;
-  color: #CAF0F8;
-  text-shadow: 1px 1px 6px #000;
+  width: 100%;
   text-align: center;
+  margin-top:50px;
+  font-size: 30px;
+  font-family: Anton;
+  color: #3b4748;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
-.texto-empresa{
-  margin-top: 30px;
-  font-size: 20px;
-  color: #CAF0F8;
-  text-align: center;
-  text-shadow: 1px 1px 6px #000;
-}
-
-.servicios{
-  margin-top: 25px;
-  text-align: center;
-  color: #0077B6;
-}
-
-.contenedor-cards{
+.cards-soluciones{
+  margin-top: 40px;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin: 25px;
+}
+
+.card{
+  width: 300px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #0b2c73;
+  padding: 10px;
+  box-shadow: 1px 1px 10px #444d4f;
+}
+
+.icono{
+  font-size: 70px;
+  padding: 10px;
+  color: #fff;
+}
+
+.titulo-card{
+  font-family: Roboto;
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.texto-card{
+  padding-top: 10px;
+  font-size: 20px;
+  color: #fff;
 }
 
 .contenedor-boton-servicios{
+  width: 100%;
   display: flex;
   justify-content: center;
 }
 
-.boton-servicios{
-  background: #0077B6;
-  padding: 15px;
+.boton-verServicios-secundario{
   text-decoration: none;
   color: #fff;
-  border-radius: 15px;
-  box-shadow: 1px 1px 5px #000;
+  padding: 20px 60px;
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 23px;
+  position: absolute;
+  margin-top: 40px;
+  background-image: url('../../imagenes/imagen-notebook.jpg');
+  background-repeat: no-repeat;
+  background-size:243px 70px;
+  box-shadow: 1px 1px 10px #000;
+  text-shadow: 2px 2px 10px #000;
 }
 
-.boton-servicios:hover{
-  transition: 1s;
-  background: #094160;
+.boton-verServicios-secundario:hover{
+  border-radius: 30px;
+  transition: .5s;
+
+}
+
+.contenedor-ventas{
+  background-color: #000;
+  padding: 100px 0px;
+  display: flex;
+}
+
+.titulo-ventas{
+  width: 45px;
+  background-color: #de1111;
+  font-family: Anton;
+  font-size: 60px;
+  color: #fff;
+  padding-left: 15px;
+  letter-spacing: 2px;
+}
+
+.contenedor-cards-pc{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imagen-notebook{
+  width: 300px;
+}
+
+.texto-arquitectura{
+  color: #fff;
+
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.texto-diseno-grafico{
+  color: #fff;
+  text-align: center;
+  font-family: 'Merriweather', serif;
 }
 
 

@@ -1,95 +1,135 @@
 import React from 'react';
 
 //Imagenes
-import imagen from '../../imagenes/logo.png';
-import imagenportada from '../../imagenes/imagen-portada.png';
+import logoApocalipsis from '../../imagenes/logo.png';
+import imagenPortada from '../../imagenes/portada.jpg';
+import imagenNotebook from '../../imagenes/portada-notebook.png';
+import imagenNotebookArquitecto from '../../imagenes/notebook-arquitecto.png';
+import imagenNotebookDiseno from '../../imagenes/notebook-diseño.png';
+import imagenPcGamer from '../../imagenes/pc-gamer.png';
 
 
 //Estilos
 import './IndexPage.css';
-import { FaHeadphonesAlt, FaCarAlt, FaBookOpen } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
-//Componentes
-import NuestrosServicios from './NuestrosServicios';
-import Servicios from '../Servicios/Servicios';
-import Nosotros from './Nosotros';
-import Footer from './Footer';
-import Navbar from './Navbar';
-
-//Animaciones React-reveal
+//Animations
 import Slide from 'react-reveal/Slide';
-import Flip from 'react-reveal/Flip';
-import Zoom from 'react-reveal/Zoom';
+
+//Icons
+import { FaInstagram,FaFacebookF } from 'react-icons/fa';
+
+//Components
+import Footer from '../Footer/Footer';
 
 
 
 function IndexPage(){
 
     return(
-      <div className='contenedor-index'>
+      <div className='contenedor-principal'>
+        <div className='contenedor-portada'>
+          <img className='logo-apocalipsis' src={logoApocalipsis}/>
+          <h3 className='texto-apocalipsis'>APOCALIPSIS</h3>
+          <div className='contenedor-redes-sociales'>
+          <Slide top>
+              <p className='texto-seguinos'>Seguinos</p>
+              <a href='https://www.google.com.ar' className='icono-instagram'><FaInstagram /></a>
+              <a href='https://www.google.com.ar' className='icono-facebook'><FaFacebookF /></a>
+            </Slide>
+          </div>
+          
+        <Slide top>
+          <img className='imagen-portada-notebook' src={imagenNotebook}/>
+        </Slide>
+        <Slide left>
+          <h2 className='texto-presentacion'>SOLUCIONES INFORMATICAS</h2>
+          <h3 className='texto-adicional'>para su organización</h3>
+          <Link className='boton-verServicios' to='/servicios'>Ver servcios</Link>
+        </Slide>
+          <img className='imagen-portada' src={imagenPortada}/>
 
-        <div className='barra-navegacion'>
-          <img className='imagen-logo' src={imagen}></img>
-          <h4 className='titulo-apocalipsis'>APOCALIPSIS</h4>
         </div>
 
-        <Navbar />
-      
-          <div className='contenedor-portada'>
-          <Slide left>
-            <img className='imagen-portada' src={imagenportada}></img>
+        <div className='contenedor-servicios'>
+        <Slide bottom>
+          <div className='contenedor-textos'>
+            <h3 className='titulo-elegirnos'>¿Por que elegirnos?</h3>
+            <p className='parrafo-elegirnos'>Con más de 25 años en el mercado de tecnología, Apocalipsis se ha consolidado como una organización de referencia y socio 
+               estratégico para empresas en relación a la consultoría, diseño, provisión e implementación de soluciones de IT.
+                Las soluciones que comercializamos ocupan una posición de liderazgo, lo cual 
+                sumado a nuestra experiencia y trayectoria, asegura la optimización del negocio de nuestros clientes.
+            </p>
+          </div>
           </Slide>
+        </div>
 
-            <div className='textos-portada'>
-            <Flip right>
-              <h4 className='titulo-soluciones'>SOLUCIONES DE SEGURIDAD</h4>
-            </Flip>
 
-            <Zoom bottom>
-              <h5 className='texto-empresa'>Tecnologia de innovación<br/>líder en la industria, captura videos a todo color y de alta calidad las 24 horas del día, los 7 días de 
-                                  la semana, para que su personal de seguridad pueda proteger a las personas y 
-                                    las propiedades durante la noche con la misma nitidez que durante el día.
-              </h5>
-            </Zoom>
+        <div className='contenedor-soluciones'>
+        <Slide left cascade>
+          <h1 className='titulo-soluciones'>Nuestras soluciones</h1> 
+            <div className='cards-soluciones'>
+
+            <div className='card'>
+              <span class="material-symbols-outlined icono">home_repair_service</span>
+              <h3 className='titulo-card'>Reparación de PC/Notebook</h3>
+              <p className='texto-card'>Soluciones de Software y Hardware para su PC. Servicios
+                totalmente garantizados para su seguridad.
+              </p>
+            </div>
+
+            <div className='card'>
+              <span class="material-symbols-outlined icono">lan</span>
+              <h3 className='titulo-card'>Redes cableadas/WI-FI</h3>
+              <p className='texto-card'>
+                Implementación, asesoramiento y mantenimiento de redes
+                empresariales y particulares. Optimizaciones en general.
+              </p>
+            </div>
+
+            <div className='card'>
+              <span class="material-symbols-outlined icono">web</span>
+              <h3 className='titulo-card'>Desarrollo de sitios Web</h3>
+              <p className='texto-card'>
+                Planificacion de proyecto, desarrollo de diseño, implementación y mantenimiento.
+                Implementación de correos electronicos corporativos.
+              </p>
             </div>
           </div>
 
-        <div className='servicios'>
-          <h2>Nuestros servicios</h2>  
-        </div>  
+          <div className='contenedor-boton-servicios'>
+            <a className='boton-verServicios-secundario' href='/servicios'>Ver servcios</a>
+          </div>
+          
+          </Slide>
+        </div>
 
-      <Zoom>
-      <div className='contenedor-cards'>
-        <NuestrosServicios 
-          icono={<FaHeadphonesAlt/>}
-          tituloCard='SOPORTE PRE VENTA Y POST VENTA'
-          textoCard='Asesoramos 
-            a nuestros clientes desde la 
-            identificación de su necesidad, 
-            desarrollando la solución adecuada y acompañándolos en su implementación.'/>
+        <div className='contenedor-ventas'>
+            <h2 className='titulo-ventas'>TU NUEVA PC ESTA ACÁ</h2> 
+          <div className='contenedor-cards-pc'>
+          <Slide bottom cascade>
+            <div className='contenedor-pc-arquitecto'>
+              <h3 className='texto-arquitectura'>ARQUITECTURA</h3>
+              <img className='imagen-notebook' src={imagenNotebookArquitecto} />
+            </div>
+            
+            <div className='contenedor-pc-diseno-grafico'>
+              <h3 className='texto-diseno-grafico'>DISEÑO GRAFICO</h3>
+              <img className='imagen-notebook' src={imagenNotebookDiseno} />
+            </div>
 
-        <NuestrosServicios 
-          icono={<FaCarAlt />}
-          tituloCard='ENTREGA AGILIZADA'
-          textoCard='Contamos con una flota 
-          de vehículos propios aptos para cumplir con los requerimientos 
-          de nuestros clientes, garantizando eficiencia y rapidez en la entrega.' />
+            <div className='contenedor-pc-diseno-grafico'>
+              <h3 className='texto-diseno-grafico'>GAMER</h3>
+              <img className='imagen-notebook' src={imagenPcGamer} />
+            </div>
+            </Slide>
+          </div>   
+        </div>
+
+        <Footer/>
+
+      </div>
      
-
-      <NuestrosServicios 
-          icono={<FaBookOpen />}
-          tituloCard='ASESORAMIENTO'
-          textoCard='Brindamos experiencias para 
-          que nuestros clientes puedan profundizar sus conocimientos y 
-          tomar contacto directo con las nuevas tecnologías 
-          que se presentan en el mercado.' />
-      </div>
-
-      </Zoom>
-      
-        <Nosotros />
-        <Footer />
-      </div>
     )
 }
 

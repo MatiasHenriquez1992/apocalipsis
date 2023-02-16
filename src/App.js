@@ -1,9 +1,7 @@
 import './App.css';
 import IndexPage from './Pages/IndexPage/IndexPage.js';
-import Servicios from './Pages/Servicios/Servicios';
 import {BrowserRouter as Router, Link, Routes, Route} from 'react-router-dom';
-import Productos from './Pages/Productos/Productos';
-
+import Servicios from './Pages/Servicios/Servicios';
 
 
 function App() {
@@ -15,8 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<IndexPage />}/>
-          <Route path='/servicios' element={<Servicios />}/>
-          <Route path='/productos' element={<Productos />}/>
+          <Route  path='/servicios' element={<Servicios/>}/>
         </Routes>
       </Router>
 

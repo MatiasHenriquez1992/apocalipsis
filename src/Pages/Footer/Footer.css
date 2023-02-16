@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor-principal-footer{
+    background-color: rgb(63, 77, 79);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+  }
+  
+  .logo-red-social{
+    width: 25px;
+    margin: 0px 10px;
+  }
+  
+  .titulo-contactanos{
+    margin: 10px;
+    font-family: Roboto;
+    color: #fff;
+  }
+  
+  .contenedor-formulario{
+    width: 200px;
+  }
+  
+  .boton-enviar{
+    border: none;
+    margin-left: 10px;
+    width: 100px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: rgb(184, 35, 35);
+    color: #fff;
+  }
+  
+  input{
+    border: none;
+    padding: 5px;
+    margin: 10px;  
+  }
+  
+  .contenedor-redes{
+    font-family: Roboto;
+    text-align: center;
+    width: 150px;
+    padding: 40px;
+  }
+  
+  .titulo-redes-sociales{
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 10px;
+  }
+  
+  .textos{
+    margin-top: 10px;
+  }
+  
+  .contenedor-contacto{
+    font-family: Roboto;
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .texto-titulo-contacto{
+    font-size: 20px;
+  }
+
+  .texto-titulo-horario{
+    font-size: 20px;
+  }
+  
+  .textos{
+    font-size: 20px;
+  }
