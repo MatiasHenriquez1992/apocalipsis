@@ -12,9 +12,6 @@ import ImagenWeb from '../../imagenes/imagen-web.png';
 import { FaInstagram,FaFacebookF, FaHome } from 'react-icons/fa';
 
 
-//Animations
-import Slide from 'react-reveal/Slide';
-
 function Servicios(){
   return(
     <div className='contenedor-principal-servicios'>
@@ -28,7 +25,7 @@ function Servicios(){
       </div>
 
       <div className='contenedor-portada-servicios'>  
-        <Slide left cascade>
+      
           <div className='contenedor-topologia'>
             <div className='contenedor-textos'>
               <h2 className='titulo-topologia'>COMUNICACION EN SU EMPRESA</h2>
@@ -42,12 +39,12 @@ function Servicios(){
               </p>
             </div>
           </div>
-        </Slide>
+   
       </div>
 
 
       <div className='contenedor-software'>
-        <Slide left cascade>
+       
           <div className='contenedor-textos-software'>
             <h2 className='titulo-software'>SOFTWARE PARA SU ORGANIZACIÓN</h2>
             <p className='parrafo-software'>Tener sus programas y sistemas operativos actualizados
@@ -55,14 +52,13 @@ function Servicios(){
               obteniendo asi un mejor rendimiento y seguridad en su estación de trabajo.
             </p>
           </div>
-        </Slide>
-      <Slide right cascade>
+
         <img className='imagen-software' src={ImagenSoftware}/>
-      </Slide>
+
       </div>
 
       <div className='contenedor-web'>
-      <Slide bottom cascade>
+
         <img className='imagen-web' src={ImagenWeb} />
         <div className='contenedor-textos-web'>
             <h2 className='titulo-web'>MOSTRA TU NEGOCIO AL MUNDO</h2>
@@ -74,7 +70,7 @@ function Servicios(){
               un servicio en produccion 24/7 los 365 dias del año
             </p>
           </div>
-          </Slide>
+
       </div>
 
       <Footer />

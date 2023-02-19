@@ -13,8 +13,7 @@ import imagenPcGamer from '../../imagenes/pc-gamer.png';
 import './IndexPage.css';
 import { Link } from 'react-router-dom';
 
-//Animations
-import Slide from 'react-reveal/Slide';
+
 
 //Icons
 import { FaInstagram,FaFacebookF } from 'react-icons/fa';
@@ -32,27 +31,26 @@ function IndexPage(){
           <img className='logo-apocalipsis' src={logoApocalipsis}/>
           <h3 className='texto-apocalipsis'>APOCALIPSIS</h3>
           <div className='contenedor-redes-sociales'>
-          <Slide top>
+         
               <p className='texto-seguinos'>Seguinos</p>
               <a href='https://www.google.com.ar' className='icono-instagram'><FaInstagram /></a>
               <a href='https://www.google.com.ar' className='icono-facebook'><FaFacebookF /></a>
-            </Slide>
+          
           </div>
           
-        <Slide top>
+        
           <img className='imagen-portada-notebook' src={imagenNotebook}/>
-        </Slide>
-        <Slide left>
+     
           <h2 className='texto-presentacion'>SOLUCIONES INFORMATICAS</h2>
           <h3 className='texto-adicional'>para su organización</h3>
           <Link className='boton-verServicios' to='/servicios'>Ver servcios</Link>
-        </Slide>
+      
           <img className='imagen-portada' src={imagenPortada}/>
 
         </div>
 
         <div className='contenedor-servicios'>
-        <Slide bottom>
+       
           <div className='contenedor-textos'>
             <h3 className='titulo-elegirnos'>¿Por que elegirnos?</h3>
             <p className='parrafo-elegirnos'>Con más de 25 años en el mercado de tecnología, Apocalipsis se ha consolidado como una organización de referencia y socio 
@@ -61,12 +59,12 @@ function IndexPage(){
                 sumado a nuestra experiencia y trayectoria, asegura la optimización del negocio de nuestros clientes.
             </p>
           </div>
-          </Slide>
+      
         </div>
 
 
         <div className='contenedor-soluciones'>
-        <Slide left cascade>
+       
           <h1 className='titulo-soluciones'>Nuestras soluciones</h1> 
             <div className='cards-soluciones'>
 
@@ -101,13 +99,13 @@ function IndexPage(){
             <a className='boton-verServicios-secundario' href='/servicios'>Ver servcios</a>
           </div>
           
-          </Slide>
+  
         </div>
 
         <div className='contenedor-ventas'>
             <h2 className='titulo-ventas'>TU NUEVA PC ESTA ACÁ</h2> 
           <div className='contenedor-cards-pc'>
-          <Slide bottom cascade>
+         
             <div className='contenedor-pc-arquitecto'>
               <h3 className='texto-arquitectura'>ARQUITECTURA</h3>
               <img className='imagen-notebook' src={imagenNotebookArquitecto} />
@@ -122,7 +120,7 @@ function IndexPage(){
               <h3 className='texto-diseno-grafico'>GAMER</h3>
               <img className='imagen-notebook' src={imagenPcGamer} />
             </div>
-            </Slide>
+          
           </div>   
         </div>
 
