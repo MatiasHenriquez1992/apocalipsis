@@ -37,7 +37,7 @@ function Servicios(){
                 su organización con fines de producción y alta velocidad en procesos 
                 a nivel corporativo. Con sistemas de redes corporativas usted
                 puede almacenar la información privada de su organización con niveles
-                de accesos acorde a nuestros clientes ademas de compartir impresoras,
+                de accesos acorde a sus necesidades, ademas de compartir impresoras,
                 accesos a correos electronicos empresariales, entre otras caracteristicas.
               </p>
             </div>

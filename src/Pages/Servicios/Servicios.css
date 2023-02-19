@@ -128,10 +128,8 @@
 }
 
 .contenedor-web{
-  border-radius: 1000px 300px;
   margin-top: 150px;
   margin-bottom: 100px;
-  background-color: rgb(180, 118, 237);
   width: 100%;
   display: flex;
   justify-content: center;
@@ -162,4 +160,12 @@
   letter-spacing: 1px;
   padding: 30px 30px 20px 30px;
   color: #fff;
+}
+
+.parrafo-web{
+  background-color: rgb(47, 95, 217);
+  width: 250px;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 10px;
 }
