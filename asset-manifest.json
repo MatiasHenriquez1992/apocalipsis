@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/apocalipsis/static/css/main.4d2c1747.css",
+    "main.js": "/apocalipsis/static/js/main.f23e3848.js",
+    "static/media/servidores.jpg": "/apocalipsis/static/media/servidores.8dddb1686e60c5f5e178.jpg",
+    "static/media/notebook-diseño.png": "/apocalipsis/static/media/notebook-diseño.355d1f0f455c62b8a4b9.png",
+    "static/media/pc-gamer.png": "/apocalipsis/static/media/pc-gamer.2f498f498279b8b7b486.png",
+    "static/media/notebook-arquitecto.png": "/apocalipsis/static/media/notebook-arquitecto.349a7d1442dd37c70439.png",
+    "static/media/portada-notebook.png": "/apocalipsis/static/media/portada-notebook.1b52d575ef5e76cf4645.png",
+    "static/media/imagen-web.png": "/apocalipsis/static/media/imagen-web.1f368d7326b5f53a80bc.png",
+    "static/media/portada.jpg": "/apocalipsis/static/media/portada.c73498baccde9660a609.jpg",
+    "static/media/imagen-software.png": "/apocalipsis/static/media/imagen-software.31b08dca790744f357dd.png",
+    "static/media/logo.png": "/apocalipsis/static/media/logo.20f690c8b46fb669f10a.png",
+    "index.html": "/apocalipsis/index.html",
+    "main.4d2c1747.css.map": "/apocalipsis/static/css/main.4d2c1747.css.map",
+    "main.f23e3848.js.map": "/apocalipsis/static/js/main.f23e3848.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d2c1747.css",
+    "static/js/main.f23e3848.js"
+  ]
+}
