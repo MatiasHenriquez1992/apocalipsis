@@ -4,8 +4,8 @@ import Footer from '../Footer/Footer.js';
 
 
 //Images
-import ImagenSoftware from '../../imagenes/imagen-software.png';
-import ImagenWeb from '../../imagenes/imagen-web.png';
+import ImagenSoftware from '../../imagenes/imagensoftware.png';
+import ImagenWeb from '../../imagenes/imagenweb.png';
 
 
 //Icons

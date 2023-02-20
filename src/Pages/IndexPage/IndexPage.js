@@ -3,9 +3,9 @@ import React from 'react';
 //Imagenes
 import logoApocalipsis from '../../imagenes/logo.png';
 import imagenPortada from '../../imagenes/portada.jpg';
-import imagenNotebook from '../../imagenes/portada-notebook.png';
-import imagenNotebookArquitecto from '../../imagenes/notebook-arquitecto.png';
-import imagenNotebookDiseno from '../../imagenes/notebook-diseño.png';
+import imagenNotebook from '../../imagenes/portadanotebook.png';
+import imagenNotebookArquitecto from '../../imagenes/notebookarquitecto.png';
+import imagenNotebookDiseno from '../../imagenes/notebookdiseno.png';
 import imagenPcGamer from '../../imagenes/pc-gamer.png';
 
 
