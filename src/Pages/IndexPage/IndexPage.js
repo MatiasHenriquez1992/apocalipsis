@@ -96,7 +96,7 @@ function IndexPage(){
           </div>
 
           <div className='contenedor-boton-servicios'>
-            <Link reloadDocument to={'/servicios'} className='boton-verServicios-secundario'>Ver servcios</Link>
+            <Link reloadDocument relative={'/servicios'} className='boton-verServicios-secundario'>Ver servcios</Link>
           </div> 
         </Zoom> 
         </div>
