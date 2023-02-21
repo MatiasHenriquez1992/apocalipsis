@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.51a9b031.css",
-    "main.js": "/static/js/main.dd325363.js",
-    "static/media/servidores.jpg": "/static/media/servidores.8dddb1686e60c5f5e178.jpg",
-    "static/media/notebookdiseno.png": "/static/media/notebookdiseno.355d1f0f455c62b8a4b9.png",
-    "static/media/pc-gamer.png": "/static/media/pc-gamer.2f498f498279b8b7b486.png",
-    "static/media/notebookarquitecto.png": "/static/media/notebookarquitecto.349a7d1442dd37c70439.png",
-    "static/media/portadanotebook.png": "/static/media/portadanotebook.1b52d575ef5e76cf4645.png",
-    "static/media/imagenweb.png": "/static/media/imagenweb.1f368d7326b5f53a80bc.png",
-    "static/media/portada.jpg": "/static/media/portada.c73498baccde9660a609.jpg",
-    "static/media/imagensoftware.png": "/static/media/imagensoftware.31b08dca790744f357dd.png",
-    "static/media/logo.png": "/static/media/logo.20f690c8b46fb669f10a.png",
-    "index.html": "/index.html",
-    "main.51a9b031.css.map": "/static/css/main.51a9b031.css.map",
-    "main.dd325363.js.map": "/static/js/main.dd325363.js.map"
+    "main.css": "/apocalipsis/static/css/main.d1443aaa.css",
+    "main.js": "/apocalipsis/static/js/main.2c44df37.js",
+    "static/media/servidores.jpg": "/apocalipsis/static/media/servidores.8dddb1686e60c5f5e178.jpg",
+    "static/media/notebookdiseno.png": "/apocalipsis/static/media/notebookdiseno.355d1f0f455c62b8a4b9.png",
+    "static/media/pc-gamer.png": "/apocalipsis/static/media/pc-gamer.2f498f498279b8b7b486.png",
+    "static/media/notebookarquitecto.png": "/apocalipsis/static/media/notebookarquitecto.349a7d1442dd37c70439.png",
+    "static/media/portadanotebook.png": "/apocalipsis/static/media/portadanotebook.1b52d575ef5e76cf4645.png",
+    "static/media/imagenweb.png": "/apocalipsis/static/media/imagenweb.1f368d7326b5f53a80bc.png",
+    "static/media/portada.jpg": "/apocalipsis/static/media/portada.c73498baccde9660a609.jpg",
+    "static/media/imagensoftware.png": "/apocalipsis/static/media/imagensoftware.31b08dca790744f357dd.png",
+    "static/media/logo.png": "/apocalipsis/static/media/logo.20f690c8b46fb669f10a.png",
+    "index.html": "/apocalipsis/index.html",
+    "main.d1443aaa.css.map": "/apocalipsis/static/css/main.d1443aaa.css.map",
+    "main.2c44df37.js.map": "/apocalipsis/static/js/main.2c44df37.js.map"
   },
   "entrypoints": [
-    "static/css/main.51a9b031.css",
-    "static/js/main.dd325363.js"
+    "static/css/main.d1443aaa.css",
+    "static/js/main.2c44df37.js"
   ]
 }
