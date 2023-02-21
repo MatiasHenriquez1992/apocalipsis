@@ -43,7 +43,7 @@ function IndexPage(){
               <h3 className='texto-adicional'>para su organización</h3>
             </Zoom>
             <Bounce bottom>
-              <a href='servicios' className='boton-verServicios' >Ver servcios</a>
+              <Link reloadDocument to={'/servicios'} className='boton-verServicios'>Ver servcios</Link>
             </Bounce>
               <img className='imagen-portada' alt='imagenPortada' src={imagenPortada}/>
         </div>
@@ -96,7 +96,7 @@ function IndexPage(){
           </div>
 
           <div className='contenedor-boton-servicios'>
-            <a href='https://matiashenriquez1992.github.io/apocalipsis/servicios' className='boton-verServicios-secundario' >Ver servcios</a>
+            <Link reloadDocument to={'/servicios'} className='boton-verServicios-secundario'>Ver servcios</Link>
           </div> 
         </Zoom> 
         </div>
