@@ -8,7 +8,6 @@ import ImagenSoftware from '../../imagenes/imagensoftware.png';
 import ImagenWeb from '../../imagenes/imagenweb.png';
 
 //Animations
-import Flip from 'react-reveal/Flip';
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
 
