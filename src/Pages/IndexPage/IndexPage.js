@@ -43,7 +43,7 @@ function IndexPage(){
               <h3 className='texto-adicional'>para su organización</h3>
             </Zoom>
             <Bounce bottom>
-              <Link reloadDocument className='boton-verServicios' to='/servicios'>Ver servcios</Link>
+              <Link reloadDocument className='boton-verServicios' to={'/servicios'}>Ver servcios</Link>
             </Bounce>
               <img className='imagen-portada' alt='imagenPortada' src={imagenPortada}/>
         </div>
@@ -96,7 +96,7 @@ function IndexPage(){
           </div>
 
           <div className='contenedor-boton-servicios'>
-            <Link reloadDocument className='boton-verServicios-secundario' to='/servicios'>Ver servcios</Link>
+            <Link reloadDocument className='boton-verServicios-secundario' to={'/servicios'}>Ver servcios</Link>
           </div> 
         </Zoom> 
         </div>
