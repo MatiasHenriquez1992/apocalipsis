@@ -13,7 +13,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' element={<IndexPage />}/>
-          <Route path='/servicios' element={<Servicios/>}/>
+          <Route path='https://matiashenriquez1992.github.io/apocalipsis/servicios' element={<Servicios/>}/>
         </Routes>
       </Router>
 

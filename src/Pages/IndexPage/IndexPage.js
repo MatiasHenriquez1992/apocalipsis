@@ -96,7 +96,7 @@ function IndexPage(){
           </div>
 
           <div className='contenedor-boton-servicios'>
-            <a href='servicios' className='boton-verServicios-secundario' >Ver servcios</a>
+            <a href='https://matiashenriquez1992.github.io/apocalipsis/servicios' className='boton-verServicios-secundario' >Ver servcios</a>
           </div> 
         </Zoom> 
         </div>
