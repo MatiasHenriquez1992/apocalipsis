@@ -11,7 +11,7 @@
   background-color: rgb(92, 92, 233);
   width: 100%;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
   padding: 0px 20px;
   color: #fff;
@@ -128,7 +128,7 @@
 }
 
 .contenedor-web{
-  margin-top: 150px;
+  margin-top: 90px;
   margin-bottom: 100px;
   width: 100%;
   display: flex;
@@ -145,7 +145,7 @@
 .contenedor-textos-web{
   border-radius: 20px 35px;
   width: 200px;
-  margin: 100px 100px 0px 50px;
+  margin: 50px 100px 0px 50px;
   padding: 10px;
   background-color: rgb(66, 12, 116);
   color: #fff;

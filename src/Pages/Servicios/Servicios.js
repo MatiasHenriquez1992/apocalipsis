@@ -7,6 +7,11 @@ import Footer from '../Footer/Footer.js';
 import ImagenSoftware from '../../imagenes/imagensoftware.png';
 import ImagenWeb from '../../imagenes/imagenweb.png';
 
+//Animations
+import Flip from 'react-reveal/Flip';
+import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
+
 
 //Icons
 import { FaInstagram,FaFacebookF, FaHome } from 'react-icons/fa';
@@ -25,7 +30,7 @@ function Servicios(){
       </div>
 
       <div className='contenedor-portada-servicios'>  
-      
+      <Bounce bottom cascade>
           <div className='contenedor-topologia'>
             <div className='contenedor-textos'>
               <h2 className='titulo-topologia'>COMUNICACION EN SU EMPRESA</h2>
@@ -39,12 +44,12 @@ function Servicios(){
               </p>
             </div>
           </div>
-   
+      </Bounce>
       </div>
 
 
       <div className='contenedor-software'>
-       
+      <Zoom bottom cascade>
           <div className='contenedor-textos-software'>
             <h2 className='titulo-software'>SOFTWARE PARA SU ORGANIZACIÓN</h2>
             <p className='parrafo-software'>Tener sus programas y sistemas operativos actualizados
@@ -52,14 +57,13 @@ function Servicios(){
               obteniendo asi un mejor rendimiento y seguridad en su estación de trabajo.
             </p>
           </div>
-
-        <img className='imagen-software' src={ImagenSoftware}/>
-
+        <img className='imagen-software' alt='imagenSoftware' src={ImagenSoftware}/>
+      </Zoom>
       </div>
 
       <div className='contenedor-web'>
-
-        <img className='imagen-web' src={ImagenWeb} />
+      <Zoom bottom cascade>
+        <img className='imagen-web' alt='imagenSitioWeb' src={ImagenWeb} />
         <div className='contenedor-textos-web'>
             <h2 className='titulo-web'>MOSTRA TU NEGOCIO AL MUNDO</h2>
             <p className='parrafo-web'>
@@ -70,7 +74,7 @@ function Servicios(){
               un servicio en produccion 24/7 los 365 dias del año
             </p>
           </div>
-
+      </Zoom>
       </div>
 
       <Footer />

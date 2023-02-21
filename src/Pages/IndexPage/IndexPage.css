@@ -76,9 +76,9 @@
 }
 @media screen and (max-width: 505px) {
   .imagen-portada-notebook {
-    margin-left: -40px;
-    margin-top: 570px;
-    width: 395px;
+    margin-left: 30px;
+    margin-top: 630px;
+    width: 320px;
   }
 }
 
