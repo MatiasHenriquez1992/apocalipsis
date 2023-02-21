@@ -12,8 +12,8 @@ function App() {
 
       <Router basename={process.env.PUBLIC_URL}>
         <Routes>
-          <Route path='/' component={<IndexPage />}/>
-          <Route path='/servicios' component={<Servicios />}/>
+          <Route path='/' element={<IndexPage />}/>
+          <Route path='/servicios' element={<Servicios />}/>
         </Routes>
       </Router>
 
