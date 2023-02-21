@@ -23,8 +23,8 @@ function Servicios(){
         <Link className='boton-inicio' to={'/'}><FaHome/>Inicio</Link>
           <div className='contenedor-redes-sociales-servicios'>
             <p className='texto-seguinos-servicios'>Seguinos</p>
-            <a href='https://www.google.com.ar' className='icono-redes-servicios'><FaInstagram /></a>
-            <a href='https://www.google.com.ar' className='icono-redes-servicios'><FaFacebookF /></a>
+            <a href='https://www.instagram.com/apocalipsiscipolletti/' className='icono-redes-servicios'><FaInstagram /></a>
+            <a href='https://www.facebook.com/cybermatica.cipolletti/' className='icono-redes-servicios'><FaFacebookF /></a>
           </div>
       </div>
 

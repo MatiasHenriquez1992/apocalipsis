@@ -33,11 +33,9 @@ function IndexPage(){
           <img className='logo-apocalipsis' alt='logoApocalipsis' src={logoApocalipsis}/>
           <h3 className='texto-apocalipsis'>APOCALIPSIS</h3>
           <div className='contenedor-redes-sociales'>
-         
               <p className='texto-seguinos'>Seguinos</p>
-              <a href='https://www.google.com.ar' className='icono-instagram'><FaInstagram /></a>
-              <a href='https://www.google.com.ar' className='icono-facebook'><FaFacebookF /></a>
-      
+              <a href='https://www.instagram.com/apocalipsiscipolletti/' className='icono-instagram'><FaInstagram /></a>
+              <a href='https://www.facebook.com/cybermatica.cipolletti/' className='icono-facebook'><FaFacebookF /></a>
           </div>
               <img className='imagen-portada-notebook' alt='imagenNotebook' src={imagenNotebook}/>
             <Zoom bottom>

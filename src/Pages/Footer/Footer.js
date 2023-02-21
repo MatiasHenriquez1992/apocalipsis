@@ -21,8 +21,8 @@ function Footer(){
 
     <div className='contenedor-redes'>
       <h1 className='titulo-redes-sociales'>REDES SOCIALES</h1>
-      <a href='https://www.google.com.ar' className='icono-instagram'><FaInstagram /></a>
-      <a href='https://www.google.com.ar' className='icono-facebook'><FaFacebookF /></a>
+      <a href='https://www.instagram.com/apocalipsiscipolletti/' className='icono-instagram'><FaInstagram /></a>
+      <a href='https://www.facebook.com/cybermatica.cipolletti/' className='icono-facebook'><FaFacebookF /></a>
     </div>
 
     <div className='contenedor-contacto'>
