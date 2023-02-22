@@ -14,10 +14,8 @@ import imagenPcGamer from '../../imagenes/pc-gamer.png';
 import './IndexPage.css';
 
 //Animations
-import Flip from 'react-reveal/Flip';
 import Zoom from 'react-reveal/Zoom';
 import Bounce from 'react-reveal/Bounce';
-
 
 //Icons
 import { FaInstagram,FaFacebookF } from 'react-icons/fa';
@@ -70,18 +68,21 @@ function IndexPage(){
 
             <div className='card'>
               <span class="material-symbols-outlined icono">home_repair_service</span>
-              <h3 className='titulo-card'>Reparación de PC/Notebook</h3>
-              <p className='texto-card'>Soluciones de Software y Hardware para su PC. Servicios
-                totalmente garantizados para su seguridad.
+              <h3 className='titulo-card'>Servicio técnico</h3>
+              <p className='texto-card'>Le brindamos un servicio de asistencia inmediata con alta 
+                prioridad para que su empresa no se detenga por inconvenientes 
+                en sus sistemas de cómputo redes internet brindamos una solución integral.
               </p>
             </div>
+
 
             <div className='card'>
               <span class="material-symbols-outlined icono">lan</span>
               <h3 className='titulo-card'>Redes cableadas/WI-FI</h3>
               <p className='texto-card'>
                 Implementación, asesoramiento y mantenimiento de redes
-                empresariales y particulares. Optimizaciones en general.
+                empresariales y particulares. Mantenga una comunicación 
+                fluida en su organizacion.
               </p>
             </div>
 
@@ -104,7 +105,6 @@ function IndexPage(){
         <div className='contenedor-ventas'>
             <h2 className='titulo-ventas'>TU NUEVA PC ESTA ACÁ</h2> 
           <div className='contenedor-cards-pc'>
-          <Flip top cascade>
             <div className='contenedor-pc-arquitecto'>
               <h3 className='texto-arquitectura'>ARQUITECTURA</h3>
               <img className='imagen-notebook' alt='imagenNotebookArquitecto' src={imagenNotebookArquitecto} />
@@ -119,7 +119,6 @@ function IndexPage(){
               <h3 className='texto-diseno-grafico'>GAMER</h3>
               <img className='imagen-notebook' alt='imagenNotebookGamer' src={imagenPcGamer} />
             </div>
-          </Flip>
           </div>   
         </div>
 
