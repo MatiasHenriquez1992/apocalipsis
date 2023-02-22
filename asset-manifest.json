@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/apocalipsis/static/css/main.54c2a8c4.css",
-    "main.js": "/apocalipsis/static/js/main.dff06751.js",
+    "main.css": "/apocalipsis/static/css/main.5a6ca19d.css",
+    "main.js": "/apocalipsis/static/js/main.58469904.js",
     "static/media/servidores.jpg": "/apocalipsis/static/media/servidores.8dddb1686e60c5f5e178.jpg",
     "static/media/notebookdiseno.png": "/apocalipsis/static/media/notebookdiseno.355d1f0f455c62b8a4b9.png",
     "static/media/pc-gamer.png": "/apocalipsis/static/media/pc-gamer.2f498f498279b8b7b486.png",
@@ -12,11 +12,11 @@
     "static/media/imagensoftware.png": "/apocalipsis/static/media/imagensoftware.31b08dca790744f357dd.png",
     "static/media/logo.png": "/apocalipsis/static/media/logo.20f690c8b46fb669f10a.png",
     "index.html": "/apocalipsis/index.html",
-    "main.54c2a8c4.css.map": "/apocalipsis/static/css/main.54c2a8c4.css.map",
-    "main.dff06751.js.map": "/apocalipsis/static/js/main.dff06751.js.map"
+    "main.5a6ca19d.css.map": "/apocalipsis/static/css/main.5a6ca19d.css.map",
+    "main.58469904.js.map": "/apocalipsis/static/js/main.58469904.js.map"
   },
   "entrypoints": [
-    "static/css/main.54c2a8c4.css",
-    "static/js/main.dff06751.js"
+    "static/css/main.5a6ca19d.css",
+    "static/js/main.58469904.js"
   ]
 }
