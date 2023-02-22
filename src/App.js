@@ -13,7 +13,7 @@ function App() {
       <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path='/' element={<IndexPage />}/>
-          <Route path='/servicios' component={Servicios}/>
+          <Route path='/servicios' element={<Servicios />}/>
         </Routes>
       </Router>
 
