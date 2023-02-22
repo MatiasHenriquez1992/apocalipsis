@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 //Imagenes
 import logoApocalipsis from '../../imagenes/logo.png';
@@ -11,7 +12,6 @@ import imagenPcGamer from '../../imagenes/pc-gamer.png';
 
 //Estilos
 import './IndexPage.css';
-import { Link } from 'react-router-dom';
 
 //Animations
 import Flip from 'react-reveal/Flip';
@@ -43,7 +43,7 @@ function IndexPage(){
               <h3 className='texto-adicional'>para su organización</h3>
             </Zoom>
             <Bounce bottom>
-              <Link reloadDocument to='/servicios' className='boton-verServicios'>Ver servcios</Link>
+              <Link reloadDocument to={'/servicios'} className='boton-verServicios'>Ver servcios</Link>
             </Bounce>
               <img className='imagen-portada' alt='imagenPortada' src={imagenPortada}/>
         </div>
