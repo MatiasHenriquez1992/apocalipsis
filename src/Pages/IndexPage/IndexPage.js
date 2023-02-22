@@ -43,7 +43,7 @@ function IndexPage(){
               <h3 className='texto-adicional'>para su organización</h3>
             </Zoom>
             <Bounce bottom>
-              <Link to={'/servicios'} className='boton-verServicios'>Ver servcios</Link>
+              <Link to='/servicios' className='boton-verServicios'>Ver servcios</Link>
             </Bounce>
               <img className='imagen-portada' alt='imagenPortada' src={imagenPortada}/>
         </div>
